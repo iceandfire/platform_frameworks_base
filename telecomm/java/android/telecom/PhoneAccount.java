@@ -129,6 +129,11 @@ public class PhoneAccount implements Parcelable {
     public static final String SCHEME_SIP = "sip";
 
     /**
+     * {@hide}
+     */
+    public static final String SCHEME_SMSTO = "smsto";
+
+    /**
      * Indicating no icon tint is set.
      */
     public static final int NO_ICON_TINT = 0;
